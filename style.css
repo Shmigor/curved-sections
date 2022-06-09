@@ -26,6 +26,9 @@
     cursor: pointer;
 }
 
+
+/* build the community */
+
 .section {
     display: flex;
     flex-direction: column;
@@ -70,4 +73,37 @@
 
 .section-img {
     width: 450px;
+}
+
+
+
+/* build the community statistics */
+
+.section-statistics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 420px;
+}
+
+.comuunities {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.communities-numbers{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.communities-text {
+    opacity: 50%;
+    font-size: 14px;
+}
+
+.communities-icon {
+    width: 30px;
+    height: 30px;
 }
