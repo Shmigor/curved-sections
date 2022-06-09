@@ -81,9 +81,11 @@
 
 .section-statistics {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    justify-content: center;
     align-items: center;
-    margin: 100px 420px;
+    gap: 50px;
+    /* margin: 100px 420px; */
 }
 
 .comuunities {
