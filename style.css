@@ -345,3 +345,52 @@
     align-items: center;
     gap: 30px;
 }
+
+/* starting working on media */
+
+
+@media (max-width:768px) {
+
+    .section {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .section-heading {
+        width: 100vw;
+        /* text-align: center; */
+    }
+
+    .header {
+        justify-content: start;
+        gap: 160px;
+        margin: 0;
+        padding-top: 30px;
+        padding-left: 20px;
+        }
+
+    .header-logo {
+        width: 100px;
+    }
+
+    .growtogether-section {
+        flex-direction: column;
+        height: 750px;
+        gap: 50px;
+    }
+
+    .flowingconversations-section {
+        flex-direction: column-reverse;
+    }
+
+    .yourusers-section {
+        flex-direction: column;
+        height: 750px;
+        gap: 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+}
