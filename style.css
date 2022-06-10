@@ -115,10 +115,10 @@
 /* curved section 1 */
 
 .growtogether-section {
-    height: 500px;
-    background-image: url("bg-section-top-desktop-1.svg"), url("bg-section-bottom-desktop-1.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-position: top, bottom;
+    height: 400px;
+    background-image: url("path 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -129,7 +129,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
     width: 300px;
     height: 200px;
@@ -138,4 +138,9 @@
 .growtogether-img {
     width: 200px;
     height: 200px;
+}
+
+.growtogether-paragraph {
+    font-size: 14px;
+    opacity: 50%;
 }
