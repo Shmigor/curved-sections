@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .header {
@@ -115,7 +116,7 @@
 /* curved section 1 */
 
 .growtogether-section {
-    height: 400px;
+    height: 600px;
     background-image: url("path 6.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,6 +124,7 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 100px;
+
 }
 
 .growtogether-container {
@@ -136,11 +138,78 @@
 }
 
 .growtogether-img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 .growtogether-paragraph {
     font-size: 14px;
-    opacity: 50%;
+    opacity: 70%;
+}
+
+
+/* curved section 2 */
+
+.flowingconversations-section {
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.flowingconversations-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.flowingconversations-img {
+    width: 300px;
+    height: 300px;
+}
+
+.flowingconversations-paragraph {
+    font-size: 14px;
+    opacity: 70%;
+}
+
+
+/* curved section 3 */
+
+.yourusers-section {
+    height: 600px;
+    background-image: url("path5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.yourusers-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.yourusers-img {
+    width: 300px;
+    height: 300px;
+}
+
+.yourusers-paragraph {
+    font-size: 14px;
+    opacity: 70%;
 }
