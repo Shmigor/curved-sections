@@ -213,3 +213,15 @@
     font-size: 14px;
     opacity: 70%;
 }
+
+
+/* curved section 4 */
+
+.section-ready {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
