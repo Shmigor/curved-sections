@@ -225,3 +225,123 @@
     flex-direction: column;
     gap: 30px;
 }
+
+
+
+/* started footer design */
+
+
+.footer {
+    height: 600px;
+    background-image: url("path4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    justify-content: left;
+}
+
+
+.contacts {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.contacts-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
+.footer-container-paragraph {
+    font-size: 14px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+}
+
+.social {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    transition: 1s;
+   }
+
+.img1 {
+    background-image: url("fb_gray.png");
+}
+
+.img2 {
+    background-image: url("insta_gray.png");
+}
+
+.img3 {
+    background-image: url("youtube_gray.png");
+}
+
+.img1:hover {
+    background-image: url("fb.png");
+}
+
+.img2:hover {
+    background-image: url("insta.png");
+}
+
+.img3:hover {
+    background-image: url("youtube.png");
+}
+
+.email {
+    height: 30px;
+    width: 200px;
+   border: 2px solid rgba(255, 82, 193, 1);
+   border-radius: 5px;
+}
+
+.submit {
+    height: 30px;
+    width: 100px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 82, 193, 1);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    height: 30px;
+    width: 100px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: rgba(255, 82, 193, 1);
+    border: 2px solid rgba(255, 82, 193, 1);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
