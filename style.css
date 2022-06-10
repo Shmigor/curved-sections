@@ -358,7 +358,6 @@
 
     .section-heading {
         width: 100vw;
-        /* text-align: center; */
     }
 
     .header {
@@ -391,6 +390,20 @@
 
     .footer {
         flex-direction: column;
+        height: 700px;
+    }
+
+    .section-ready {
+        text-align: center;
+    }
+
+    .section-paragraph {
+        padding: 30%;
+    }
+
+    .section-img {
+        width: 300px;
+        height: 300px;
     }
 
 }
